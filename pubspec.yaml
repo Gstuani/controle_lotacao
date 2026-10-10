@@ -1,0 +1,39 @@
+name: controle_lotacao
+description: Controle de acesso ao laboratório.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  intl: ^0.20.2
+  flutter_slidable: ^4.0.3
+  shared_preferences: ^2.5.6
+  google_fonts: ^6.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/fonts/
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/images/icone.png
+  remove_alpha_ios: true
+  web:
+    generate: true
+    image_path: assets/images/icone.png
+    background_color: '#181818'
+    theme_color: '#ED145B'
